@@ -34,8 +34,8 @@ details about the method can be found in the code.
 
 
 - **Django server and db**: Basically django is used as a framework for speeding up the API creation
-and as well as the ORM functionalities. There is model where the different files can be scheduled while
-Celery processes them.
+and as well as the ORM functionalities. There is a model where the different files can be scheduled
+while  Celery processes them.
 
 
 - **RabbitMq**: Rabbit is the broker used with Celery that basically acts as an intermediate between
