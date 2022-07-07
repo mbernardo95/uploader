@@ -79,7 +79,7 @@ any master DRF endpoints, and any crazy project architecture. Two available endp
 ![](./README_img/postman_endpoint_1.png)
 
 ```sh
-curl --location --request POST 'localhost:8000/api/schedule_file' --form 'file=@"your_path_to_project/uploader/src/uploader/file_examples/data_100_rows.csv"'
+curl --location --request POST 'localhost:8000/api/schedule_file' --form 'file=@"your_path_to_project/uploader/file_examples/data_100_rows.csv"'
 ```
 
 ### Downloading a file
